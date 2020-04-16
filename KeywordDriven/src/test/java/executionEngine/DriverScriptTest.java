@@ -63,7 +63,7 @@ public class DriverScriptTest {
     	//ExcelUtils.setExcelFile(sPath, Constants.Sheet_TestSteps);
     	
     	//This is to start the Log4j logging in the test case using DOMConfigure class and method configure
-    	DOMConfigurator.configure("Log4j.xml");
+    	DOMConfigurator.configure("KeywordDriven/Log4j.xml");
     	
     	//Declaring String variable for storing Object Repository path
     	String Path_OR = Constants.Path_OR;
